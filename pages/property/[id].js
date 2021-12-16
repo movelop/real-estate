@@ -17,7 +17,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
                     {isVerified && <GoVerified />}
                 </Box>
                 <Text fontWeight={'bold'} fontSize={'lg'}>
-                    AED {price} {rentFrequency && `/${rentFrequency}`}
+                    AED {millify(price)} {rentFrequency && `/${rentFrequency}`}
                 </Text>
                 <Spacer />
                 <Avatar size='sm' src={agency?.logo?.url}></Avatar>
