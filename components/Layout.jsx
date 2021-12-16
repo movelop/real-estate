@@ -6,6 +6,7 @@ const Layout = ({ children }) => (
     <>
         <Head>
             <title>House Hunter</title>
+            <link rel="icon" href="/favicon.png" />
         </Head>
         <Box maxWidth='1280px' m='auto'>
             <header>
